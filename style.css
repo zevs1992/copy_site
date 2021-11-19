@@ -1,0 +1,139 @@
+
+
+body{
+    width: 375px;
+    height: 812px;
+    margin: 0;
+    color: #0b1f33;
+}
+
+.main_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_content{
+    width: 320px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.header_img{
+    width: 130px;
+    height: 32px;
+    background: url("/imge/Group 4.svg") no-repeat center center / contain;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+    background: url("/imge/flag 1.svg") no-repeat center center / contain;
+
+}
+
+.content{
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_content span, p, button{
+    font-family: 'Lato';
+    src: local('Lato Bold'), local('Lato-Bold'), url('latobold.woff2') format('woff2'), url('latobold.woff') format('woff'), url('latobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card{
+    margin-left: 13px;
+    width: 345px;
+    height: 171px;
+    background: url("/imge/fon.jpg") no-repeat center center / cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_wrapper{
+    width: 350px;
+}
+
+.card p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.kalendar{
+    width: 20px;
+    height: 20px;
+    background: url("/imge/kalendar.svg") no-repeat center center / contain;
+}
+
+.main_kalendar{
+    width: 230px;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+}
+
+
+.main_kalendar p{
+    color: #66727f
+}
+
+button{
+    width: 200px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.data_passport{
+    width: 350px;
+    text-align: center;
+    margin-left: 10px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 15px;
+
+}
+
+.data_passport p{
+    margin: 10px;
+    
+}
+
+p span{
+    color: #66727f
+}
+
+.data_button{
+    width: 350px;
+    height: 50px;
+    border: 2px
+     solid #0d4cd3;
+    border-radius: 8px;
+    padding: 14px0;
+    text-align: center;
+    text-decoration: none;
+    color: #0d4cd3;
+    margin-top: 15px;
+}
+
+button a{
+    text-decoration: none;
+    color: #0d4cd3;
+}
